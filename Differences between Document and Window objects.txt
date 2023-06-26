@@ -1,0 +1,63 @@
+                    Differences between Document and Window Objects
+
+
+Document Object: 
+
+The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
+
+
+Syntax:
+
+document.property_name;
+
+The properties of document objects that are commonly used are listed below:
+
+1.activeElement: It returns the currently active elements in the document.
+2.body: It returns the contents of the body element.
+3.anchors: It returns all <a> elements that have a name attribute.
+4.title: It returns the title element of the document.
+5.head: It returns the head element of the document.
+6.URL: It returns the complete URL of the document.
+
+Methods of Document:
+
+Syntax:
+
+document.method_name;
+
+The lists of most commonly used methods are listed below:
+
+1.getElementById(): It returns the object of the given ID. If no object with that id exists then it returns null.
+2.getElementsByClassName(): It returns an object containing all the elements with the specified class names in the document as objects.
+3.getElementsByName(): It returns an object containing all the elements with the specified name in the document as objects.
+4.getElementsByTagName(): It returns an object containing all the elements with the specified tag names in the document as objects.
+
+Window Object:
+
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+
+Syntax:
+window.property_name;
+
+The properties of Window objects that are commonly used are listed below:
+
+1.Document: It returns a reference to the document object of that window.
+2.Length: It represents the number of frames in the current window.
+3.Name: It contains the name of the referenced window.
+4.Navigator: It returns a reference to the navigator object.
+
+
+Methods of Window:
+
+Syntax:
+
+window.method_name;
+
+The methods of Window objects that are commonly used are listed below:
+
+1.alert(): It is used to display an alert box. It displays a specified message along with an OK button. 
+2.close(): Closes the current window.
+3.confirm(): Displays a dialog box with a message and an OK and a Cancel button.
+4.stop(): Stops the window from loading.
+
+
